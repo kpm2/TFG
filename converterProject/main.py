@@ -84,6 +84,6 @@ try:
     os.remove(temp_file_path)
     print("Coordinates have been normalized and file has been successfully.")
 except FileNotFoundError:
-    print(f"El archivo {file_path} no fue encontrado.")
+    print("File not found.")
 except Exception as e:
-    print("Ocurrió un error:", e)
+    print("Error:", e)
