@@ -1,0 +1,89 @@
+import os
+import sys
+import unicodedata
+
+def strip_accents(str):
+    return ''.join(c for c in unicodedata.normalize('NFD', str)
+                   if unicodedata.category(c) != 'Mn')
+
+if len(sys.argv) != 2:
+    print("Usage: python Main.py <file_name>")
+    sys.exit(1)
+
+file_path = sys.argv[1]
+
+try:
+    with open(file_path, 'r', encoding='utf-8') as reader:
+        temp_file_path = "temp.txt"
+        with open(temp_file_path, 'w', encoding='utf-8') as writer:
+            is_vertices_section = False
+            min_x = float('inf')
+            min_y = float('inf')
+            max_x = float('-inf')
+            max_y = float('-inf')
+
+            for line in reader:
+                if line.startswith("*Vertices"):
+                    is_vertices_section = True
+                    writer.write(line)
+                    continue
+                if line.startswith("*Edges"):
+                    is_vertices_section = False
+
+                if is_vertices_section:
+                    p = line.split("\"")
+                    parts = p[2].split(" ")
+                    if len(parts) > 3:
+                        x = float(parts[1])
+                        y = float(parts[2])
+
+                        min_x = min(min_x, x)
+                        min_y = min(min_y, y)
+                        max_x = max(max_x, x)
+                        max_y = max(max_y, y)
+
+                writer.write(line)
+
+            margin = 0.1
+            range_x = max_x - min_x
+            range_y = max_y - min_y
+            margin_x = margin * range_x
+            margin_y = margin * range_y
+            min_x -= margin_x
+            min_y -= margin_y
+            max_x += margin_x
+            max_y += margin_y
+            range_x = max_x - min_x
+            range_y = max_y - min_y
+
+    with open(temp_file_path, 'r', encoding='utf-8') as reader, open(file_path, 'w', encoding='utf-8') as writer:
+        for line in reader:
+            if line.startswith("*Vertices"):
+                is_vertices_section = True
+                writer.write(line)
+                continue
+            if line.startswith("*Edges"):
+                is_vertices_section = False
+            if is_vertices_section:
+                p = line.split("\"")
+                p[1] = strip_accents(p[1])
+                parts = p[2].split(" ")
+                if len(parts) > 3:
+                    x = float(parts[1])
+                    y = float(parts[2])
+
+                    normalized_x = (x - min_x) / range_x
+                    normalized_y = 1 - ((y - min_y) / range_y)
+
+                    writer.write(p[0] + "\"" + p[1] + "\" " + str(normalized_x) + " " + str(normalized_y) + " 0.0\n")
+                else:
+                    writer.write(line)
+            else:
+                writer.write(line)
+
+    os.remove(temp_file_path)
+    print("Coordinates have been normalized and file has been successfully.")
+except FileNotFoundError:
+    print(f"El archivo {file_path} no fue encontrado.")
+except Exception as e:
+    print("Ocurrió un error:", e)
