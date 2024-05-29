@@ -27,7 +27,6 @@ if __name__ == '__main__':
     G1 = nx.Graph(G)
 
     # Print laplacian eigenvalues
-    laplacian_matrix = nx.laplacian_matrix(G1)
     eigenvalues = nx.linalg.spectrum.laplacian_spectrum(G)
     # Sort the eigenvalues in descending order
     sorted_eigenvalues = np.sort(eigenvalues)[::-1]
