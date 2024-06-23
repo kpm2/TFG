@@ -1,0 +1,77 @@
+Original graph:
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.02209829531278444
+Average shortest path length of the graph: 6.479774705581157
+Kirchhoff index of the graph: 9139.324684431953
+Number of Spanning Trees: 45632.000000
+
+Adding edge ('Son Seu', 'Naveta des Tudons'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.023220650574525784
+Average shortest path length of the graph: 6.396825396825397
+Kirchhoff index of the graph: 8809.3246844321
+Number of Spanning Trees: 136896.000000
+
+Adding edge ("Cala d'Artrutx", 'Santa Galdana'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.023957199366410244
+Average shortest path length of the graph: 6.422427035330261
+Kirchhoff index of the graph: 8589.9913510987
+Number of Spanning Trees: 273792.000000
+
+Adding edge ('Ciutadella', 'Santa Galdana'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.02397937648534412
+Average shortest path length of the graph: 6.470558115719406
+Kirchhoff index of the graph: 8621.82468443194
+Number of Spanning Trees: 182528.000000
+
+Adding edge ('Naveta des Tudons', 'Santa Galdana'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.022759745194243487
+Average shortest path length of the graph: 6.474654377880184
+Kirchhoff index of the graph: 8935.32468443185
+Number of Spanning Trees: 136896.000000
+
+Adding edge ('Santa Galdana', 'Sant Tomas'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.022163244596723117
+Average shortest path length of the graph: 6.478750640040962
+Kirchhoff index of the graph: 9056.592961987104
+Number of Spanning Trees: 170048.000000
+
+Adding edge ('Sant Tomas', 'Platja de son Bou'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.023815648105546615
+Average shortest path length of the graph: 6.42447516641065
+Kirchhoff index of the graph: 8760.28454336958
+Number of Spanning Trees: 212776.000000
+
+Adding edge ('Son Bou', 'Cala en Porter'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.023886798696555224
+Average shortest path length of the graph: 6.433179723502304
+Kirchhoff index of the graph: 8682.29867361436
+Number of Spanning Trees: 270208.000000
+
+Adding edge ('Alaior', 'Binifamis'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.022387394924803666
+Average shortest path length of the graph: 6.362007168458781
+Kirchhoff index of the graph: 8765.898204452766
+Number of Spanning Trees: 167080.000000
+
+Adding edge ('Alaior', 'Estancia de ses Penyes'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.02209857673427607
+Average shortest path length of the graph: 6.387608806963645
+Kirchhoff index of the graph: 8885.931364075343
+Number of Spanning Trees: 157352.000000
+
+Adding edge ('Sant Climent', 'Sant Lluis'):
+Diameter of the graph: 15
+Algebraic connectivity of the graph: 0.022335582990187564
+Average shortest path length of the graph: 6.436763952892985
+Kirchhoff index of the graph: 8919.312157762317
+Number of Spanning Trees: 108112.000000
+

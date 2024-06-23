@@ -1,0 +1,91 @@
+Original graph:
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.2162995609412701
+Average shortest path length of the graph: 3.3260869565217392
+Kirchhoff index of the graph: 444.2947534066544
+Number of Spanning Trees: 693936.000000
+
+Adding edge ('15', '16'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.2178944075985296
+Average shortest path length of the graph: 3.25
+Kirchhoff index of the graph: 430.80889172895064
+Number of Spanning Trees: 1483536.000000
+
+Adding edge ('9', '16'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.21649537949328887
+Average shortest path length of the graph: 3.3115942028985508
+Kirchhoff index of the graph: 432.0065709995229
+Number of Spanning Trees: 1573581.000000
+
+Adding edge ('9', '14'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.21725678535309995
+Average shortest path length of the graph: 3.286231884057971
+Kirchhoff index of the graph: 428.0465564141463
+Number of Spanning Trees: 1495476.000000
+
+Adding edge ('9', '11'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.2195773151103856
+Average shortest path length of the graph: 3.286231884057971
+Kirchhoff index of the graph: 428.523643160611
+Number of Spanning Trees: 1491573.000000
+
+Adding edge ('13', '14'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.24027410568685265
+Average shortest path length of the graph: 3.221014492753623
+Kirchhoff index of the graph: 419.24844269996447
+Number of Spanning Trees: 1708245.000000
+
+Adding edge ('4', '13'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.2289790231728967
+Average shortest path length of the graph: 3.213768115942029
+Kirchhoff index of the graph: 426.596864328662
+Number of Spanning Trees: 1527456.000000
+
+Adding edge ('5', '11'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.22865623552550915
+Average shortest path length of the graph: 3.177536231884058
+Kirchhoff index of the graph: 428.89440146786995
+Number of Spanning Trees: 1405029.000000
+
+Adding edge ('4', '22'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.2164959852169459
+Average shortest path length of the graph: 3.286231884057971
+Kirchhoff index of the graph: 428.03797853001555
+Number of Spanning Trees: 1487472.000000
+
+Adding edge ('5', '22'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.22049563808185435
+Average shortest path length of the graph: 3.260869565217391
+Kirchhoff index of the graph: 432.45648637878963
+Number of Spanning Trees: 1377741.000000
+
+Adding edge ('21', '24'):
+Diameter of the graph: 7
+Algebraic connectivity of the graph: 0.23346542759267713
+Average shortest path length of the graph: 3.2644927536231885
+Kirchhoff index of the graph: 415.21505382002886
+Number of Spanning Trees: 2280192.000000
+
+Adding edge ('2', '5'):
+Diameter of the graph: 8
+Algebraic connectivity of the graph: 0.22236026207499568
+Average shortest path length of the graph: 3.3079710144927534
+Kirchhoff index of the graph: 435.9534821756942
+Number of Spanning Trees: 1253541.000000
+
+Adding edge ('3', '5'):
+Diameter of the graph: 7
+Algebraic connectivity of the graph: 0.2372872458340962
+Average shortest path length of the graph: 3.2246376811594204
+Kirchhoff index of the graph: 422.4304883431029
+Number of Spanning Trees: 1549812.000000
+

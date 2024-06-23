@@ -1,0 +1,104 @@
+Original graph:
+Diameter of the graph: 34
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.006710750091666828
+Average shortest path length of the graph: 12.879195979899498
+Kirchhoff index of the graph: 136226.85570004449
+Number of Spanning Trees: 32920922190278011748614144.000000
+
+
+After removing Passeig de Gracia:
+Diameter of the graph: 34
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.006089566433479202
+Average shortest path length of the graph: 13.153190193391199
+Kirchhoff index of the graph: 143963.75928524346
+Number of Spanning Trees: 79710899942849914077184.000000
+
+
+After removing Diagonal:
+Diameter of the graph: 41
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.0030626722220510687
+Average shortest path length of the graph: 14.886068809926678
+Kirchhoff index of the graph: 182715.79593694917
+Number of Spanning Trees: 549137609122260320256.000000
+
+
+After removing La Sagrera:
+Diameter of the graph: 46
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.0027377743260308383
+Average shortest path length of the graph: 16.708950585310266
+Kirchhoff index of the graph: 225717.27692699968
+Number of Spanning Trees: 44883200603197928.000000
+
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+Original graph:
+Diameter of the graph: 34
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.006710750091661076
+Average shortest path length of the graph: 12.879195979899498
+Kirchhoff index of the graph: 136226.85570004449
+Number of Spanning Trees: 32920922190278011748614144.000000
+
+
+After removing Passeig de Gracia:
+Diameter of the graph: 34
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.006089566433473743
+Average shortest path length of the graph: 13.153190193391199
+Kirchhoff index of the graph: 143963.75928524346
+Number of Spanning Trees: 79710899942849914077184.000000
+
+
+After removing La Sagrera:
+Diameter of the graph: 43
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.0049267761979740615
+Average shortest path length of the graph: 14.592319130390196
+Kirchhoff index of the graph: 175968.95480025938
+Number of Spanning Trees: 8403532773152960512.000000
+
+
+After removing Glories:
+Diameter of the graph: 43
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.004323252223204011
+Average shortest path length of the graph: 15.21677198798301
+Kirchhoff index of the graph: 190969.66351537316
+Number of Spanning Trees: 6694779049792784.000000
+
+
+After removing Espanya:
+Diameter of the graph: 47
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.0017445318806240762
+Average shortest path length of the graph: 18.051177394034536
+Kirchhoff index of the graph: 284591.87366306933
+Number of Spanning Trees: 1464166738942.511719
+
+
+After removing Catalunya:
+Diameter of the graph: 43
+Edge connectivity of the graph: 1
+Algebraic connectivity of the graph: 0.002235202232856378
+Average shortest path length of the graph: 16.279155844155845
+Kirchhoff index of the graph: 204348.6187627828
+Number of Spanning Trees: 61006947455.999016
+
+
+
+Process finished with exit code 0

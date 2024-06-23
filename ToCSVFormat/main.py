@@ -12,15 +12,27 @@ if __name__ == '__main__':
     G = nx.read_pajek(file_path, encoding='UTF-8')
     G1 = nx.Graph(G)
 
+    #################################################
+    #Calculate betweenness centrality
+    #################################################
     betweenness_centrality = betweenness_centrality(G)
     betweenness = list(betweenness_centrality.values())
 
+    #################################################
+    #Calculate closeness centrality
+    #################################################
     closeness_centrality=closeness_centrality(G)
     closeness = list(closeness_centrality.values())
 
+    #################################################
+    #Calculate katz centrality
+    #################################################
     katz_centrality = katz_centrality(G1)
     katz = list(katz_centrality.values())
 
+    #################################################
+    #Calculate pagerank centrality
+    #################################################
     pagerank = pagerank(G, weight=None)
     pr = list(pagerank.values())
 
@@ -31,8 +43,14 @@ if __name__ == '__main__':
         with open(file_path2, 'w') as writer:
             writer.write('Id, Name, Lat, Long, Betweenness, Closeness, Katz, Pagerank\n')
             for line in reader:
+                #################################################
+                # Start printing when reaching vertices section
+                #################################################
                 if line.startswith("*Vertices"):
                     is_vertices_section = True
+                #################################################
+                # Stop printing when reaching edges section
+                #################################################
                 elif line.startswith("*Edges"):
                     is_vertices_section = False
                 elif is_vertices_section:
